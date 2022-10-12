@@ -16,7 +16,7 @@ namespace Web.Comon
             Verify verify;
             if (!getCredentials)
                 throw new Exception(
-                    "The user is not active. Please contact contact@forgood.co.za for further information or sign in with a different account.");
+                    "The user is not active. Please contact contact@servcraft.co.za for further information or sign in with a different account.");
             else
             {
                 AuthorizeUser authorizeUser = new AuthorizeUser();
